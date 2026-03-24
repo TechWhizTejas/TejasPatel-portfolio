@@ -32,5 +32,5 @@ I am a Computer Science student with hands-on experience in automation, PowerApp
 - Business Process Design
 
 ## Contact
-- LinkedIn: (your link)
-- Email: (your email)
+- LinkedIn: https://www.linkedin.com/in/tejas-patel-9b3055230
+- Email: pateltejas0601@gmail.com
