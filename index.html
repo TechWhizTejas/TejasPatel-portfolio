@@ -3,112 +3,479 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tejas Patel | Home</title>
+  <title>Tejas Patel — Software Developer & Automation Engineer</title>
+  <meta name="description" content="Tejas Patel — Computer Science graduate, founder of Anax.ai, and automation developer. RPA, Power Platform, Power BI, and AI-driven business solutions." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2308090d'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='52' font-weight='700' fill='%2322d3ee' text-anchor='middle'%3ETP%3C/text%3E%3C/svg%3E" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <div class="profile">
-        <img src="profile.jpg" alt="Profile Photo" class="profile-img" />
-        <h2>Tejas Patel</h2>
 
-        <div class="socials">
-        <a href="https://github.com/TechWhizTejas/" target="_blank">💻</a>
-        <a href="https://www.linkedin.com/in/tejas-patel-9b3055230/" target="_blank">💼</a>
-        <a href="mailto:pateltejas0601@gmail.com">📧</a>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">TP<span>.</span></a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="Tejas_Patel_Resume.pdf" target="_blank" rel="noopener" class="btn-resume">Resume</a>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+      <a href="Tejas_Patel_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <p class="eyebrow reveal">Software Developer · Automation · Founder, Anax.ai</p>
+        <h1 class="reveal">Tejas Patel</h1>
+        <p class="hero-sub reveal">
+          Computer Science graduate building <span class="accent-text">automation, business apps, and AI-driven tools</span>
+          that turn messy processes into reliable systems — from RPA and Power Platform work at Co-operators,
+          SaskPower, and SGI, to founding Anax.ai, a free AI-powered tax assistant for Canadians.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-socials reveal">
+          <a href="https://github.com/TechWhizTejas/" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.15-.02-2.09-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 015.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.52 10.52 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/in/tejas-patel-9b3055230/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+          <a href="mailto:pateltejas0601@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
         </div>
       </div>
+    </section>
 
-      <nav class="nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="skills.html">Skills</a>
-        <a href="resume.html">Resume</a>
-        <a href="projects.html">Projects</a>
-        <a href="certifications.html">Certification</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </aside>
+    <section id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">01</span>
+          <h2 class="section-title">What I Bring</h2>
+          <p class="section-sub">A mix of hands-on development, data analysis, and business-side problem solving — shaped by three co-op terms in regulated, process-heavy environments and building an AI product of my own.</p>
+        </div>
 
-    <main class="main-content">
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Hello, I'm Tejas Patel</h1>
-      <div class="underline"></div>
+        <div class="about-grid reveal">
+          <div class="about-card">
+            <h3>Technical Foundation</h3>
+            <p>C#/.NET, Python, JavaScript/React, SQL, Power BI, and the Microsoft Power Platform — with hands-on experience integrating AI (RAG, the Anthropic API) into real products.</p>
+          </div>
+          <div class="about-card">
+            <h3>Business Focus</h3>
+            <p>Turning business requirements into working systems: data analysis, workflow automation, documentation, and support across insurance, utilities, and public sector teams.</p>
+          </div>
+          <div class="about-card">
+            <h3>Founder Mindset</h3>
+            <p>Founder of Anax.ai, a free AI-powered tax assistant for Canadians. Passionate about financial literacy, AI, and building products that create measurable value.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <h2>Computer Science Graduate | Automation Developer | Business Technology Problem Solver</h2>
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2 class="section-title">Experience</h2>
+          <p class="section-sub">From an independent AI product to co-op terms across insurance, utilities, and public sector environments.</p>
+        </div>
 
-      <p>
-        I am a Computer Science student at the University of Regina with hands-on
-        experience in automation, Power Platform, RPA, APIs, AI, and business
-        process improvement through co-op roles at Co-operators, SaskPower, and SGI.
-      </p>
+        <div class="exp-list">
+          <div class="exp-item reveal" style="--dot: var(--purple)">
+            <span class="exp-index">01</span>
+            <div class="exp-body">
+              <div class="exp-header">
+                <h3 class="exp-role">Founder &amp; Lead Designer/Developer</h3>
+                <span class="exp-meta">2022 — Present</span>
+              </div>
+              <p class="exp-company">Anax.ai · Independent Venture</p>
+              <ul>
+                <li>Building a free, AI-powered tax assistant that helps Canadians understand their returns and make smarter financial decisions — driven by a mission to make financial literacy accessible to everyone.</li>
+                <li>Designed the full product end-to-end, from wireframes to working prototype, including an interactive tax calculator and a privacy-first conversational AI assistant that keeps financial data on-device.</li>
+                <li>Built a Claude-based, retrieval-augmented assistant grounded in official CRA sources for accurate, source-cited answers. Stack: React, Node.js, Anthropic API.</li>
+              </ul>
+            </div>
+          </div>
 
-      <p>
-        I enjoy turning complex business requirements into practical digital
-        solutions that improve efficiency, accuracy, and user experience. My
-        background combines software development, automation design, business
-        analysis, and collaboration across technical and non-technical teams.
-      </p>
+          <div class="exp-item reveal" style="--dot: var(--teal)">
+            <span class="exp-index">02</span>
+            <div class="exp-body">
+              <div class="exp-header">
+                <h3 class="exp-role">Freelance Power Platform Developer</h3>
+                <span class="exp-meta">Apr 2025 — Present</span>
+              </div>
+              <p class="exp-company">Self-Employed · Prairie Furniture Repair · Remote</p>
+              <ul>
+                <li>Own an end-to-end Power Platform application for a small business — requirements, build, deployment, and ongoing support.</li>
+                <li>Automated client intake, billing, invoicing, and internal tracking with Power Apps and Power Automate, cutting manual effort across operations.</li>
+                <li>Manage the client's full Microsoft 365 environment (SharePoint, Teams, Outlook, permissions) and built their business website and portfolio.</li>
+              </ul>
+            </div>
+          </div>
 
-      <div class="hero-buttons">
-        <a href="projects.html" class="home-btn primary-btn">View Projects</a>
-        <a href="resume.html" class="home-btn secondary-btn">View Resume</a>
+          <div class="exp-item reveal" style="--dot: var(--yellow)">
+            <span class="exp-index">03</span>
+            <div class="exp-body">
+              <div class="exp-header">
+                <h3 class="exp-role">Customer Care Supervisor</h3>
+                <span class="exp-meta">May 2022 — Present</span>
+              </div>
+              <p class="exp-company">Leon's Furniture · Regina, SK · On-site</p>
+              <ul>
+                <li>Manage vendor documentation, service contracts, and Flexiti financing records while resolving warranty and service issues for customers.</li>
+                <li>Coordinate chargebacks and dispute resolutions directly with manufacturers, and support leadership with sales reporting and CRM operations.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item reveal" style="--dot: var(--blue)">
+            <span class="exp-index">04</span>
+            <div class="exp-body">
+              <div class="exp-header">
+                <h3 class="exp-role">Associate System Developer Intern</h3>
+                <span class="exp-meta">May — Aug 2025</span>
+              </div>
+              <p class="exp-company">Co-operators Group of Companies · Regina, SK · Hybrid</p>
+              <ul>
+                <li>Translated business requirements into UiPath automation using Studio, attended/unattended robots, and Orchestrator, reducing manual effort and improving accuracy.</li>
+                <li>Engineered RPA workflows integrating C#, SQL, JSON, and REST APIs (Swagger UI, Postman) for seamless system interoperability.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item reveal" style="--dot: var(--green)">
+            <span class="exp-index">05</span>
+            <div class="exp-body">
+              <div class="exp-header">
+                <h3 class="exp-role">Developer Intern, Innovation Solutions</h3>
+                <span class="exp-meta">Sep — Dec 2024</span>
+              </div>
+              <p class="exp-company">SaskPower · Regina, SK · On-site</p>
+              <ul>
+                <li>Replatformed 15+ legacy applications into Power Apps and maintained Power Automate flows for multiple business units.</li>
+                <li>Built Safety Net and a corporate procurement card management platform, using Azure DevOps and GitHub Copilot for version control and delivery.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item reveal" style="--dot: var(--red)">
+            <span class="exp-index">06</span>
+            <div class="exp-body">
+              <div class="exp-header">
+                <h3 class="exp-role">Insights Analyst</h3>
+                <span class="exp-meta">May — Aug 2024</span>
+              </div>
+              <p class="exp-company">Saskatchewan Government Insurance (SGI) · Regina, SK · On-site</p>
+              <ul>
+                <li>Built Power BI dashboards and ad hoc reports from multiple source systems, delivering actionable insights to business stakeholders and leadership.</li>
+                <li>Researched AI applications and developed ethical-use frameworks adopted across the company's platforms.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-sub">Personal and freelance projects built end-to-end, spanning desktop apps, automation, and business platforms.</p>
+        </div>
+
+        <div class="project-list">
+          <div class="project reveal" style="--dot: var(--purple)">
+            <span class="project-index">01</span>
+            <div class="project-body">
+              <h3>Ticket Tracking Dashboard</h3>
+              <p>Desktop dashboard built in Java Swing to create, assign, and track support tickets with real-time status updates, backed by a MySQL database via JDBC with filtered queries by priority, status, and assignee.</p>
+              <div class="tags">
+                <span>Java</span>
+                <span>Swing</span>
+                <span>JDBC</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project reveal" style="--dot: var(--blue)">
+            <span class="project-index">02</span>
+            <div class="project-body">
+              <h3>Finance Portfolio Dashboard</h3>
+              <p>Desktop finance app that pulls live stock prices via a third-party REST API and displays real-time portfolio valuation, with interactive Matplotlib charts for holdings, gains/losses, and historical trends.</p>
+              <div class="tags">
+                <span>Python</span>
+                <span>Tkinter</span>
+                <span>REST API</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project reveal" style="--dot: var(--green)">
+            <span class="project-index">03</span>
+            <div class="project-body">
+              <h3>Welcome Packages RPA</h3>
+              <p>Automated generation of bilingual (EN/FR) PDF packages with SharePoint publishing and secure client email delivery, backed by a C# and LINQ data validation pipeline that sanitizes Excel inputs before triggering UiPath workflows.</p>
+              <div class="tags">
+                <span>C#</span>
+                <span>LINQ</span>
+                <span>SQL</span>
+                <span>UiPath</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project reveal" style="--dot: var(--red)">
+            <span class="project-index">04</span>
+            <div class="project-body">
+              <h3>Procurement Card Application</h3>
+              <p>Digitized SaskPower's procurement card process with automated approval workflows and role-based dashboards, using Power Automate with SharePoint lists and Dataverse as the backend, plus dynamic data prefill and multi-stage approval logic.</p>
+              <div class="tags">
+                <span>Power Apps</span>
+                <span>Power Automate</span>
+                <span>Dataverse</span>
+                <span>SharePoint</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">04</span>
+          <h2 class="section-title">Skills &amp; Tools</h2>
+          <p class="section-sub">The languages, platforms, and everyday tools I use to design, build, and ship automation and business solutions.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-group">
+            <h4><span class="dot purple"></span>Languages &amp; Databases</h4>
+            <div class="tags">
+              <span>SQL</span>
+              <span>Python</span>
+              <span>C#</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>MySQL</span>
+              <span>SQL Server</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4><span class="dot green"></span>Platforms &amp; Tools</h4>
+            <div class="tags">
+              <span>Power Apps</span>
+              <span>Power Automate</span>
+              <span>UiPath</span>
+              <span>Azure DevOps</span>
+              <span>Postman</span>
+              <span>Swagger UI</span>
+              <span>Figma</span>
+              <span>GitHub Copilot</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4><span class="dot blue"></span>Productivity &amp; Reporting</h4>
+            <div class="tags">
+              <span>Microsoft 365</span>
+              <span>Excel Dashboards</span>
+              <span>Power BI</span>
+              <span>SharePoint</span>
+              <span>D365</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">05</span>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-sub">Training completed across automation, cloud, AI, and governance.</p>
+        </div>
+
+        <div class="cert-list">
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/1e047bcdb066645e6b56fcc6fe5753226f2c584da912c7ca89aaeeaeeb29f00c" target="_blank" rel="noopener">
+            <div>
+              <h4>UiPath Automation Developer Associate Training</h4>
+              <p>Building RPA solutions using UiPath Studio, Orchestrator, and automation workflows.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/f618df1d861bae7c576c720a00d0572db56c754fe8687c0e981369609e36c60e" target="_blank" rel="noopener">
+            <div>
+              <h4>Power Platform Essential & Advanced Training</h4>
+              <p>Developed applications using PowerApps and Power Automate for business process automation.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/62b835ee291700cb67fe345fb3a804e88e9893a6949fbbd19b4e4b1fe2853790" target="_blank" rel="noopener">
+            <div>
+              <h4>Azure DevOps Training</h4>
+              <p>CI/CD pipelines, version control, and project tracking using Azure DevOps.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/565cfbe6471002eb7c0eec19d83d21e9f3b1b1ec3d06a962d1e865687503a3ec" target="_blank" rel="noopener">
+            <div>
+              <h4>Microsoft Copilot Studio</h4>
+              <p>Built and explored AI-powered copilots and automation tools within the Microsoft ecosystem.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/ae52eb23bb3bb85e0565ba2d8431896555fc047d6601b56306c8a34e032c8c73" target="_blank" rel="noopener">
+            <div>
+              <h4>Career Essentials in Generative AI</h4>
+              <p>Core concepts of Generative AI, ethical AI use, and real-world applications.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/1e047bcdb066645e6b56fcc6fe5753226f2c584da912c7ca89aaeeaeeb29f00c" target="_blank" rel="noopener">
+            <div>
+              <h4>Public Sector Governance Program</h4>
+              <p>Governance training focused on public sector policy, leadership, and decision-making.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <a class="cert-item reveal" href="https://www.linkedin.com/learning/certificates/e6d60eb260cc6138dc1681965e2254a874739f0f8be1a4e8240ae858e9225f72" target="_blank" rel="noopener">
+            <div>
+              <h4>Power BI Essential Training</h4>
+              <p>Data visualization, dashboard creation, and transforming data into actionable business insights.</p>
+            </div>
+            <span class="cert-arrow">↗</span>
+          </a>
+
+          <div class="cert-item static reveal">
+            <div>
+              <h4>C# &amp; .NET</h4>
+              <p>Core language and framework training underpinning RPA and backend development work.</p>
+            </div>
+            <span class="cert-badge">Self-paced</span>
+          </div>
+
+          <div class="cert-item static reveal">
+            <div>
+              <h4>React</h4>
+              <p>Component-based front-end development, applied directly to building the Anax.ai interface.</p>
+            </div>
+            <span class="cert-badge">Self-paced</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">06</span>
+          <h2 class="section-title">Awards &amp; Leadership</h2>
+          <p class="section-sub">Recognition and community involvement alongside my technical work.</p>
+        </div>
+
+        <div class="awards-grid reveal">
+          <div class="awards-col">
+            <h4>Awards &amp; Honors</h4>
+            <ul>
+              <li>Academic Silver Award — University of Regina, 2026</li>
+              <li>Dean's Honor List — Spring/Summer 2025, Spring/Summer 2023, Fall 2022</li>
+              <li>1st Prize, Prototype Development — Key Incubator, 2024</li>
+              <li>Academic Solidarity Award — University of Regina, 2023</li>
+              <li>International Entrance Award — University of Regina, 2022</li>
+            </ul>
+          </div>
+          <div class="awards-col">
+            <h4>Leadership &amp; Community</h4>
+            <ul>
+              <li>Board of Governors, University of Regina — 2023–2024</li>
+              <li>Executive Council, Scholarship, Bursary &amp; Loan Committee, Government of Saskatchewan — 2023–2024</li>
+              <li>Junior Ambassador, University of Regina — 2022–Present</li>
+              <li>IELTS Language Support Volunteer, Regina Public Library — Present</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <span class="section-num reveal">07</span>
+        <h2 class="section-title reveal">Let's build something</h2>
+        <p class="contact-sub reveal">Open to new opportunities in automation, business technology, and software development. Reach out any time.</p>
+
+        <div class="contact-links reveal">
+          <a href="mailto:pateltejas0601@gmail.com">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            pateltejas0601@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/tejas-patel-9b3055230/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/TechWhizTejas/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.15-.02-2.09-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 015.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.52 10.52 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+            GitHub
+          </a>
+          <a href="tel:+15488810601">
+            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            (548) 881-0601
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+      <p>&copy; 2026 Tejas Patel</p>
+      <div class="socials">
+        <a href="https://github.com/TechWhizTejas/" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.15-.02-2.09-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 015.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.52 10.52 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
+        <a href="https://www.linkedin.com/in/tejas-patel-9b3055230/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+        <a href="mailto:pateltejas0601@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
       </div>
     </div>
+  </footer>
 
-    <div class="hero-highlights">
-      <div class="highlight-card blue">
-        <h3>Co-op Experience</h3>
-        <p>Built real-world solutions across insurance, utilities, and public sector environments.</p>
-      </div>
-
-      <div class="highlight-card purple">
-        <h3>Automation & RPA</h3>
-        <p>Designed scalable workflows using UiPath, Power Automate, APIs, SQL, and C#.</p>
-      </div>
-
-      <div class="highlight-card green">
-        <h3>Leadership & Impact</h3>
-        <p>Board of Governors member, award recipient, and contributor to business innovation.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="about-summary">
-    <h2>What I Bring</h2>
-    <div class="underline"></div>
-
-    <div class="summary-grid">
-      <div class="summary-box">
-        <h3>Technical Foundation</h3>
-        <p>
-          Experience with C#, Python, JavaScript, SQL, PowerApps, SharePoint,
-          Microsoft 365, Azure DevOps, and API integrations.
-        </p>
-      </div>
-
-      <div class="summary-box">
-        <h3>Business Focus</h3>
-        <p>
-          Skilled at improving workflows, supporting users, creating documentation,
-          and aligning technical solutions with business needs.
-        </p>
-      </div>
-
-      <div class="summary-box">
-        <h3>Innovation Mindset</h3>
-        <p>
-          Passionate about AI, process optimization, and building solutions that
-          create measurable value for teams and organizations.
-        </p>
-      </div>
-    </div>
-  </section>
-</main>
-  </div>
+  <script src="script.js"></script>
 </body>
 </html>
