@@ -552,7 +552,7 @@ section {
 /* Skills */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -834,8 +834,7 @@ section {
 
 /* Responsive */
 @media (max-width: 900px) {
-  .about-grid,
-  .skills-grid {
+  .about-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
