@@ -413,6 +413,19 @@ section {
   flex-direction: column;
 }
 
+.exp-group-label {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 36px 20px 4px;
+}
+
+.exp-group-label:first-child {
+  padding-top: 0;
+}
+
 .exp-item {
   display: grid;
   grid-template-columns: 70px 1fr;
